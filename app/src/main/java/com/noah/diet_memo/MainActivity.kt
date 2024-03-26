@@ -25,8 +25,12 @@ class MainActivity : AppCompatActivity() {
                 .setTitle("운동 메모 다이얼 로그")
             mBuilder.show()
         }
-
+        //mergetest2의 test프로젝트가 작업중이다.
         Log.d("MAIN","메인 액티비티")
+        Log.d("MAIN","메인 액티비티")
+        Log.d("MAIN","메인 액티비티")
+        Log.d("MAIN","메인 액티비티")
+
 
 
     }
