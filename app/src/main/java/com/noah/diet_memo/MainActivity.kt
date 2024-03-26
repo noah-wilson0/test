@@ -9,6 +9,11 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
+
+
+    //mergetest의 test프로젝트가 작업중이다.
+    private val hi="hello world"
+
     ///나는 main 액티비이의 코드이다.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
