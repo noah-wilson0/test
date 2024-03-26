@@ -2,11 +2,13 @@ package com.noah.diet_memo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
+    ///나는 main 액티비이의 코드이다.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -19,5 +21,7 @@ class MainActivity : AppCompatActivity() {
                 .setTitle("운동 메모 다이얼 로그")
             mBuilder.show()
         }
+        Log.d("MAIN","메인 액티비티")
+
     }
 }
