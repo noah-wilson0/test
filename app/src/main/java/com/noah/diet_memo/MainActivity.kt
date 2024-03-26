@@ -9,10 +9,15 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
+
+
+
     ///나는 main 액티비이의 코드이다.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //mergetest의 test프로젝트가 작업중이다.
+        val name="mergetest"
 
 
         Toast.makeText(this,"환영합니다~~",Toast.LENGTH_SHORT).show()
