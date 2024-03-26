@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
@@ -12,6 +13,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+        Toast.makeText(this,"환영합니다~~",Toast.LENGTH_SHORT).show()
 
         val writeButton=findViewById<ImageView>(R.id.writeBtn)
         writeButton.setOnClickListener {
@@ -21,7 +25,9 @@ class MainActivity : AppCompatActivity() {
                 .setTitle("운동 메모 다이얼 로그")
             mBuilder.show()
         }
+
         Log.d("MAIN","메인 액티비티")
+
 
     }
 }
