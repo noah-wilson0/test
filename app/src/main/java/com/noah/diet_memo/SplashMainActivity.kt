@@ -63,6 +63,10 @@ class SplashMainActivity : AppCompatActivity() {
                     Log.d("MAIN",hello)
                     Log.d("MAIN",hello)
                     Log.d("MAIN",hello)
+
+
+
+
                     Log.d("MAIN",hello)
                 }
         }
