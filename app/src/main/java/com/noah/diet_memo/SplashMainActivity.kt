@@ -13,6 +13,9 @@ import java.lang.Exception
 
 class SplashMainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
+
+
+    var hello="hello world!"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_main)
@@ -51,6 +54,16 @@ class SplashMainActivity : AppCompatActivity() {
                             Toast.LENGTH_SHORT,
                         ).show()
                     }
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
+                    Log.d("MAIN",hello)
                 }
         }
 
